@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Room Temperature Thermometer</title>
+    <style>
+        :root {
+            --primary: #1976D2;
+            --primary-dark: #0D47A1;
+            --text: #1F2937;
+            --text-secondary: #4B5563;
+            --bg: #F3F4F6;
+            --card-bg: #FFFFFF;
+            --border: #E5E7EB;
+            --code-bg: #F9FAFB;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.65;
+            padding: 32px 16px;
+        }
+        .container {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 48px;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            border: 1px solid var(--border);
+        }
+        .badge {
+            display: inline-block;
+            background: #E3F2FD;
+            color: var(--primary);
+            padding: 6px 14px;
+            border-radius: 9999px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            letter-spacing: 0.02em;
+        }
+        h1 { font-size: 32px; font-weight: 800; margin-bottom: 8px; color: var(--text); }
+        .last-updated { font-size: 14px; color: var(--text-secondary); margin-bottom: 32px; }
+        h2 { font-size: 22px; font-weight: 700; margin-top: 36px; margin-bottom: 14px; color: var(--text); border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+        h3 { font-size: 17px; font-weight: 600; margin-top: 20px; margin-bottom: 10px; color: var(--primary-dark); }
+        p { margin-bottom: 16px; color: var(--text-secondary); }
+        strong { color: var(--text); }
+        ul { margin-left: 24px; margin-bottom: 18px; color: var(--text-secondary); }
+        li { margin-bottom: 8px; }
+        a { color: var(--primary); text-decoration: none; font-weight: 500; }
+        a:hover { text-decoration: underline; }
+        .callout {
+            background-color: var(--code-bg);
+            border-left: 4px solid var(--primary);
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border); font-size: 13px; color: var(--text-secondary); text-align: center; }
+        @media (max-width: 640px) {
+            .container { padding: 24px 18px; }
+            h1 { font-size: 26px; }
+            h2 { font-size: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="badge">Official Privacy Policy</span>
+        <h1>Room Temperature Thermometer</h1>
+        <p class="last-updated">Last Updated: November 2026</p>
+
+        <p>This Privacy Policy explains how <strong>Learning Easy</strong> ("we", "us", or "our") collects, uses, and safeguards your information when you use the <strong>Room Temperature Thermometer</strong> mobile application (Package Name: <code>com.smartroom.temperature.thermometer</code>). We are committed to transparency and upholding your data privacy rights.</p>
+
+        <div class="callout">
+            <strong>Key Privacy Guarantee:</strong> Indoor temperature calculations (hardware sensor telemetry and thermodynamic battery models) are executed <strong>100% locally on your device</strong>. We never transmit or store your indoor ambient readings on external servers.
+        </div>
+
+        <h2>1. Information We Collect and Process</h2>
+        
+        <h3>A. Location Information</h3>
+        <p>When you use the outdoor weather, hourly forecast, and Air Quality Index (AQI) features, the application requests access to your device's location:</p>
+        <ul>
+            <li><strong>Approximate Location (Coarse Location):</strong> Used to determine your city or geographical region to fetch current weather and air pollutant metrics.</li>
+            <li><strong>Precise Location (Fine Location):</strong> Used solely to link to the nearest meteorological observation station for hyper-local telemetry.</li>
+        </ul>
+        <p><em>Note: Location data is transmitted directly to external weather data APIs over secure encrypted connections (HTTPS) and is never sold, logged, or shared for third-party tracking.</em></p>
+
+        <h3>B. Technical and Device Information</h3>
+        <p>To ensure application stability and proper functionality, third-party libraries integrated into our app may automatically collect certain diagnostic and non-personally identifiable technical information, including:</p>
+        <ul>
+            <li>Device manufacturer, model, and Android OS version.</li>
+            <li>Google Advertising ID (GAID) for advertising and attribution.</li>
+            <li>Crash logs, stack traces, and app performance metrics.</li>
+        </ul>
+
+        <h2>2. Third-Party Services & SDK Disclosures</h2>
+        <p>Our app incorporates trusted third-party services to deliver advertising, analytics, and billing infrastructure. Each partner operates under its own privacy policy:</p>
+        <ul>
+            <li><strong>Google Mobile Ads (AdMob):</strong> Used to display banner, native, and interstitial advertisements. Complies with Google Play Families policies and supports user consent choices via the Google User Messaging Platform (UMP). <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Ads Privacy Policy</a></li>
+            <li><strong>Google Play Billing:</strong> Facilitates secure, encrypted in-app purchases and subscriptions for Pro access. All financial transactions are handled directly by Google Play. We do not store or process payment card details. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+            <li><strong>Firebase Crashlytics & Analytics:</strong> Collects anonymized crash diagnostics and engagement patterns to improve app stability. <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy Policy</a></li>
+            <li><strong>Firebase Cloud Messaging (FCM):</strong> Sends weather alert notifications and periodic service updates to your device token.</li>
+        </ul>
+
+        <h2>3. Device Permissions & Transparency</h2>
+        <p>We request only the minimum Android runtime permissions essential for app operation:</p>
+        <ul>
+            <li><code>ACCESS_FINE_LOCATION</code> & <code>ACCESS_COARSE_LOCATION</code>: Required to obtain outdoor temperature, atmospheric pressure, humidity, and AQI from local weather stations.</li>
+            <li><code>POST_NOTIFICATIONS</code> (Android 13+): Required if you opt in to receive daily climate forecasts and severe weather advisories.</li>
+            <li><code>INTERNET</code> & <code>ACCESS_NETWORK_STATE</code>: Required to fetch outdoor weather metrics and verify network availability.</li>
+            <li><code>BILLING</code>: Required to manage and restore your optional Pro subscriptions or lifetime ad-free purchase.</li>
+        </ul>
+
+        <h2>4. User Rights & Data Deletion Mechanism</h2>
+        <p>In accordance with Google Play Developer Policies and global privacy regulations (including GDPR and CCPA), you have full control over your data:</p>
+        <ul>
+            <li>You can revoke location or notification permissions at any time via your device's <em>Settings &gt; Apps &gt; Room Temperature &gt; Permissions</em>.</li>
+            <li>You can reset or opt out of personalized advertising via your device's <em>Settings &gt; Google &gt; Ads</em>.</li>
+            <li>To request the deletion of any diagnostic data or inquire about your data records, please submit a request to our support email at <a href="mailto:learningeasyapps@gmail.com">learningeasyapps@gmail.com</a>. We will process your request within 30 business days.</li>
+        </ul>
+
+        <h2>5. Children's Privacy</h2>
+        <p>Our application is not targeted toward children under 13 years of age. We do not knowingly collect personally identifiable information from children. If you become aware that a child has provided us with personal information, please contact us immediately so we can remove it.</p>
+
+        <h2>6. Security</h2>
+        <p>We implement industry-standard security protocols and HTTPS encryption for all external communications to safeguard your information against unauthorized access, alteration, or disclosure.</p>
+
+        <h2>7. Contact Us</h2>
+        <p>If you have any questions, feedback, or concerns regarding this Privacy Policy, please contact us:</p>
+        <ul>
+            <li><strong>Developer:</strong> Learning Easy</li>
+            <li><strong>Support Email:</strong> <a href="mailto:learningeasyapps@gmail.com">learningeasyapps@gmail.com</a></li>
+        </ul>
+
+        <footer>
+            &copy; 2026 Learning Easy. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
